@@ -104,7 +104,7 @@
 			<key>comment</key>
 			<string>This is to capture parameters within function invocation</string>
 			<key>match</key>
-			<string>(?&lt;!\w)-(?!(?i:[ic]?(?:and|as|band|bnot|bor|bxor|contains|eq|f|ge|gt|in|is|isnot|join|le|like|lt|match|ne|not|notcontains|notmatch|or|replace|split|xor))\s)\w+(?!\p{L})</string>
+			<string>(?&lt;!\w)-(?!(?i:[ic]?(?:and|as|band|bnot|bor|bxor|contains|eq|f|ge|gt|in|is|isnot|join|le|like|lt|match|ne|not|notcontains|notmatch|or|replace|split|xor|\d+))\s)\w+(?!\p{L})</string>
 			<key>name</key>
 			<string>variable.function.parameter.powershell</string>
 		</dict>
